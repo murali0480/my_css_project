@@ -1,0 +1,250 @@
+p{
+   font-family: "Time New Roman", Georgia, Serif;
+   font-family: Arnoldboecklin, fantasy;
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+header{
+background-color: #e8e8e8;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+
+.nav_menu{
+    list-style: none;
+    margin: 0.6em;
+    padding: 0;
+}
+
+.nav_menu li{
+    min-width: 8em;
+    margin-right: 1em;
+    text-align: center;
+    float: left;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.6em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,75,0.5);
+}
+
+.nav_menu li a:hover{
+    color: purple;
+   /* -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2,);*/
+    animation: myRotate 3s infinite;
+    -webkit-animation: myRotate 3s infinite;
+    -moz-animation: myRotate 3s infinite;    
+    
+}
+.clear
+{
+    clear: both;
+}
+.nav_menu a{
+    display:block;
+    width: 100px;
+}
+    
+#mainBody{
+    background-color: ghostwhite;
+    margin-top: 50px;
+}
+
+#welcomeDiv{
+    background-color: #e8e8e8;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#newsLetter{
+    background-color: #e8e8e8;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+ 
+#leftDiv{
+    background-color: #e8e8e8;
+    float: left;
+    width: 45%;
+    height: 200px;
+    margin :20px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#leftDiv img{
+    height: 100px;
+    width: 100px;
+    float:right; 
+}
+
+#rightDiv{
+    background-color: #e8e8e8;
+    float: right;
+    width: 45%;
+    height: 200px;
+    margin :20px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#rightDiv img{
+    height: 100px;
+    width: 100px;
+    float:right; 
+}
+
+footer{
+    height: 50px;
+ background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+        box-shadow: 10px 10px 5px #888888;
+
+}
+
+@keyframes fadeIn{from {opacity: 0;} to {opacity: 1;} }
+@-webkit-keyframes fadeIn{from {opacity: 0;} to {opacity: 1;} }
+@-moz-keyframes fadeIn{from {opacity: 0;} to {opacity: 1;} }
+
+.fade-in{
+    opacity: 0;
+    
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+  
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    
+}
+
+@keyframes fadeOut {from {opacity: 1;} to {opacity: 0;} }
+@-webkit-keyframes fadeOut {from {opacity: 1;} to {opacity: 0;} }
+@-moz-keyframes fadeOut {from {opacity: 1;} to {opacity: 0;} }
+
+.fade-out{
+    opacity: 1;
+    
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+  
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    
+}
+
+.myfadeout:hover{
+    opacity: 1;
+    
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+  
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+}
+
+@keyframes myRotate{
+    0%  {transform:rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes myRotate{
+    0%  {transform:rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@-moz-keyframes myRotate{
+    0%  {transform:rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-moz-keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+#welcomeDiv h2{
+    position: relative;
+    
+    animation: myMove 5s infinite;
+    -webkit-animation: myMove 5s infinite;
+    -moz-animation: myMove 5s infinite;
+    
+}
